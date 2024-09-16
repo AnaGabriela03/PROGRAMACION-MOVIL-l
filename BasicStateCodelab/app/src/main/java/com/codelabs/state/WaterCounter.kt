@@ -6,14 +6,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.compose.material3.Button
 import androidx.compose.foundation.layout.Column
-import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.setValue
-import androidx.compose.foundation.layout.Row
 import androidx.compose.runtime.saveable.rememberSaveable
-import com.codelabs.state.ui.theme.WellnessTaskItem
 
 @Composable
 fun WaterCounter(modifier: Modifier = Modifier) {
